@@ -86,37 +86,15 @@ $footer-bg-color: #3e5266;
 .it-hero-wrapper {
   background-color: #FFF;
   .it-hero-text-wrapper {
-    padding-top: 60px;
-    @media (min-width: 992px) {
-      padding-left: 120px;
-      padding-right: 120px;
-    }
-    @media (min-width: 1200px) {
-      padding-right: 240px;
-    }
-
     h1, p, span {
       color: #2f475e;
     }
   }
 
   &.it-bottom-overlapping-content {
-    margin-bottom: -220px;
-    @media (min-width: 576px) {
-      margin-bottom: -240px;
-    }
-    @media (min-width: 768px) {
-      margin-bottom: -280px;
-    }
-
-    .it-hero-text-wrapper {
-      padding-bottom: 280px;
-      @media (min-width: 576px) {
-        padding-bottom: 300px;
-      }
-      @media (min-width: 768px) {
-        padding-bottom: 380px;
-      }
+    margin-bottom: -64px;
+    .it-hero-content {
+      padding-bottom: 64px;
     }
   }
 
